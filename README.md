@@ -1,4 +1,4 @@
-## YelpReview-NLP
+## Predicting Yelp Reviews with Natural Language Processing
 
 Using a linear regression deep learning model, trained with real reviews made by users on the Yelp website, this model will determine the star rating of a business based on the reviews a business has received.
 
