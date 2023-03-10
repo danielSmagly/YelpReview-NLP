@@ -7,3 +7,6 @@ Since the core problem is a regression problem, my first focus was to transform 
 Once the data was prepared to be used for the model, I verified that the newly created dataframe could be read by a simple TensorFlow model with 30 neurons total and one hidden layer. After the initial experiment passed I began the process of tuning various hyperparameters to observe the changes in the models performance, with the RMSE ranging between 0.57 to 0.38 in the first few model designs. Later on in the experimentation process I began adjusting function parameters outside of the main model parameters, such as the total number of unique businesses used in the model and max_features/min_df parameters used in the tfidfVectorizer function. 
 
 Regarding the hyperparameters, I found that using the ‘relu’ activation with the ‘adam’ optimizer yielded the best results, using the ‘sigmoid’ function along with the ‘SGD’ optimizer resulted in the model not making progress past 0.77xx loss. Using a high neuron count resulted in similar RMSE scores, but much longer run time. The best RMSE scores the final model design was able to achieve was 0.30xx - 0.27xx, which resulted in some very accurate star rating predictions for many of the businesses.
+
+### Example output
+![exImg](images/ExampleOutput.png)
